@@ -1,0 +1,42 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "stadt",
+            "purpose": "tagging",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-08T14:01:04.227Z",
+            "modified": "2022-06-08T14:01:07.657Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Jerusalem",
+            "purpose": "classifying",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-08T14:01:11.236Z",
+            "modified": "2022-06-08T14:01:23.798Z"
+        }
+    ],
+    "target": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2213.86767578125,2970.885009765625,222.63134765625,165.59375"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "fd00911f-e2b1-4ffd-8706-6e8a2e29fbf0.json",
+    "motivation": "commenting"
+}
