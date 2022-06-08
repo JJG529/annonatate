@@ -1,0 +1,42 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "stadt",
+            "purpose": "tagging",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-08T14:01:43.937Z",
+            "modified": "2022-06-08T14:01:44.437Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "rom",
+            "purpose": "classifying",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-08T14:01:46.677Z",
+            "modified": "2022-06-08T14:01:51.470Z"
+        }
+    ],
+    "target": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2304.543212890625,3976.293212890625,128.8046875,135.320068359375"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e71fa183-32a3-4c2d-8053-8ee82dccbaa6.json",
+    "motivation": "commenting"
+}
