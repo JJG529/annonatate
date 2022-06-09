@@ -1,0 +1,51 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Kreuzung Jesu Christi",
+            "purpose": "commenting",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-09T14:53:27.270Z",
+            "modified": "2022-06-09T14:53:33.738Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "jesus",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-09T14:53:41.327Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "christentum",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-09T14:53:46.990Z"
+        }
+    ],
+    "target": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2243.611572265625,2749.884521484375,170.705322265625,181.17822265625"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "fd612a70-bfc4-4134-92bf-2ac3f2bd8d6a.json",
+    "motivation": "commenting"
+}
