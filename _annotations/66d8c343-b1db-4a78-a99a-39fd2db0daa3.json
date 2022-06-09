@@ -1,0 +1,42 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/3/39/Ebstorfer-stich2.jpg"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Jerusalemn",
+            "purpose": "classifying",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-09T12:43:01.546Z",
+            "modified": "2022-06-09T12:43:10.909Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "stadt",
+            "purpose": "tagging",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-09T12:43:04.900Z",
+            "modified": "2022-06-09T12:43:05.351Z"
+        }
+    ],
+    "target": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/3/39/Ebstorfer-stich2.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1645.68701171875,1707.0467529296875,248,218.9091796875"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "66d8c343-b1db-4a78-a99a-39fd2db0daa3.json",
+    "motivation": "commenting"
+}
