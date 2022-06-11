@@ -1,0 +1,41 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Katze",
+            "purpose": "commenting",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-11T14:23:44.596Z",
+            "modified": "2022-06-11T14:23:45.216Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "tier",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-11T14:23:47.235Z"
+        }
+    ],
+    "target": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1894.7938232421875,5000.94921875,121.2490234375,121.2490234375"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "6b8f2aa3-f371-4ba9-90c5-d8d37bf75501.json",
+    "motivation": "commenting"
+}
