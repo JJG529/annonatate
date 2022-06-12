@@ -1,0 +1,41 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/3/39/Ebstorfer-stich2.jpg"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Haupt Christi",
+            "purpose": "commenting",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-12T14:50:25.367Z",
+            "modified": "2022-06-12T14:50:27.339Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "christentum",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-12T14:50:29.956Z"
+        }
+    ],
+    "target": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/3/39/Ebstorfer-stich2.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1672.4505615234375,112.50077056884766,267.806640625,280.9775619506836"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "376a578a-015c-4adb-8981-0ee19a1b73a7.json",
+    "motivation": "commenting"
+}
