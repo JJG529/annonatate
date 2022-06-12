@@ -3,39 +3,49 @@ canvas: "https://upload.wikimedia.org/wikipedia/commons/3/39/Ebstorfer-stich2.jp
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Rom",
-            "purpose": "commenting",
+            "created": "2022-06-09T16:35:47.288Z",
             "creator": {
                 "id": "JJG529",
                 "name": "JJG529"
             },
-            "created": "2022-06-09T16:35:47.288Z",
-            "modified": "2022-06-09T16:35:47.474Z"
+            "modified": "2022-06-12T14:52:56.315Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Rom (mit L\u00f6we)"
+        },
+        {
+            "created": "2022-06-09T16:35:49.977Z",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "stadt"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "stadt",
+            "value": "tier",
             "creator": {
                 "id": "JJG529",
                 "name": "JJG529"
             },
-            "created": "2022-06-09T16:35:49.977Z"
+            "created": "2022-06-12T14:52:59.896Z"
         }
     ],
-    "target": {
-        "source": "https://upload.wikimedia.org/wikipedia/commons/3/39/Ebstorfer-stich2.jpg",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1941.5712890625,2601.60009765625,249.302978515625,168.319091796875"
-        }
-    },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
     "id": "565c0991-0a92-46b7-b0d1-ea6db449a5ae.json",
-    "motivation": "commenting"
+    "motivation": "commenting",
+    "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1941.5712890625,2601.60009765625,249.302978515625,168.319091796875"
+        },
+        "source": "https://upload.wikimedia.org/wikipedia/commons/3/39/Ebstorfer-stich2.jpg"
+    },
+    "type": "Annotation"
 }
