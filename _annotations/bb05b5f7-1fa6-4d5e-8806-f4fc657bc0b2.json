@@ -1,0 +1,41 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg"
+order: 8
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Jesus Christus",
+            "purpose": "commenting",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-12T14:55:33.028Z",
+            "modified": "2022-06-12T14:55:35.156Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "christentum",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-12T14:55:38.295Z"
+        }
+    ],
+    "target": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2140.193603515625,92.88966369628906,307.502197265625,446.92039489746094"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "bb05b5f7-1fa6-4d5e-8806-f4fc657bc0b2.json",
+    "motivation": "commenting"
+}
