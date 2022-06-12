@@ -1,0 +1,41 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/3/39/Ebstorfer-stich2.jpg"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "F\u00fcsse Christi",
+            "purpose": "commenting",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-12T14:50:40.533Z",
+            "modified": "2022-06-12T14:50:42.056Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "christentum",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-12T14:50:44.711Z"
+        }
+    ],
+    "target": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/3/39/Ebstorfer-stich2.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1606.596435546875,3291.059326171875,460.978759765625,171.22021484375"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "bbff6c1e-df86-44c8-b12a-a6a25091b4f6.json",
+    "motivation": "commenting"
+}
