@@ -1,0 +1,41 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Skorpion",
+            "purpose": "commenting",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-12T14:47:01.999Z",
+            "modified": "2022-06-12T14:47:04.052Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "tier",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-12T14:47:06.825Z"
+        }
+    ],
+    "target": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1106.22607421875,3935.991455078125,85.8634033203125,107.329345703125"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "d6337c5e-a022-4aa8-b92d-e42efa2deac2.json",
+    "motivation": "commenting"
+}
