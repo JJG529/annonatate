@@ -1,0 +1,41 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Elefant mit Turm auf R\u00fccken",
+            "purpose": "commenting",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-12T14:47:48.166Z",
+            "modified": "2022-06-12T14:47:53.842Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "tier",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-12T14:47:56.066Z"
+        }
+    ],
+    "target": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/4/48/Hereford-Karte.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2914.622802734375,1117.6373291015625,233.82421875,180.9263916015625"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "f5b3539f-31f8-4b92-a654-94f7d80a52ed.json",
+    "motivation": "commenting"
+}
