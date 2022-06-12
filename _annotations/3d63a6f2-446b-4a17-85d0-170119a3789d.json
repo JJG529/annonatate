@@ -1,0 +1,41 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/3/39/Ebstorfer-stich2.jpg"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Hand Christi S\u00fcden",
+            "purpose": "commenting",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-12T14:50:52.379Z",
+            "modified": "2022-06-12T14:50:56.940Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "christentum",
+            "creator": {
+                "id": "JJG529",
+                "name": "JJG529"
+            },
+            "created": "2022-06-12T14:51:09.232Z"
+        }
+    ],
+    "target": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/3/39/Ebstorfer-stich2.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3318.80322265625,1688.609130859375,175.611083984375,87.805419921875"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "3d63a6f2-446b-4a17-85d0-170119a3789d.json",
+    "motivation": "commenting"
+}
